@@ -1,11 +1,11 @@
 const { booleanToWord } = require("../src");
 
 describe("booleanToWord", () => {
-  it("returns string of 'true' when given a boolean of true", () => {
-    expect(booleanToWord(true)).toBe('true');
+  it("returns 'yes' when given a boolean of true", () => {
+    expect(booleanToWord(true)).toBe('yes');
 });
-it("returns string of 'false' when given a boolean of false", () => {
-    expect(booleanToWord(false)).toBe('false');
+it("returns 'no' false' when given a boolean of false", () => {
+    expect(booleanToWord(false)).toBe('no');
 });
 });
 

@@ -1,6 +1,6 @@
 const booleanToWord = boolean => {
     
-    return boolean.toString()
+return boolean ? "yes" : "no"
 };
 
 module.exports = booleanToWord;
