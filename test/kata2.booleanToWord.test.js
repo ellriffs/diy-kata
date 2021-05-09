@@ -9,7 +9,4 @@ it("returns 'no' false' when given a boolean of false", () => {
 });
 });
 
-  
-
-  // how do we create specs again???
-  
+// how do we create specs again???
