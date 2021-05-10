@@ -7,9 +7,8 @@ describe("getEmployerRole", () => {
       name: 'Satti',
     
       role: 'Developer'
-    
-    }, {
-    
+      },
+      {
       name: 'Jenny',
     
       role: 'Sales Associate'
@@ -17,15 +16,15 @@ describe("getEmployerRole", () => {
     }, {
     
       name: 'Javid',
-    
-      role: 'Human Recommended Reading Assistant'
-    
-    }]
 
-    expect(getEmployerRole('Javid', employees)).toBe('Human Recommended Reading Assistant')
-    expect(getEmployerRole('Jenny', employees)).toBe('Sales Associate')
-    expect(getEmployerRole('Satti', employees)).toBe('Developer')
-    
-    
+        role: "Human Recommended Reading Assistant"
+    }
+    ];
+
+    expect(getEmployerRole("Javid", employees)).toBe(
+      "Human Recommended Reading Assistant"
+    );
+    expect(getEmployerRole("Jenny", employees)).toBe("Sales Associate");
+    expect(getEmployerRole("Satti", employees)).toBe("Developer");
   });
 });
